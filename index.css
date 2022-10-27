@@ -1,0 +1,151 @@
+@font-face {
+  font-family: Kumbh-Sans;
+  src: url(./KumbhSans-VariableFont_wght.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #19a1ae;
+  overflow: hidden;
+}
+/** CARD STYLES FOR MOBILE RESOLUTION **/
+#back-img-top {
+  position: fixed;
+  width: 655px;
+  height: 621px;
+  left: -394.65px;
+  top: -394.97px;
+  mix-blend-mode: normal;
+}
+
+#back-img-bottom {
+  position: fixed;
+  width: 622px;
+  height: 621px;
+  left: 150.97px;
+  top: 380.65px;
+  mix-blend-mode: normal;
+}
+
+#main-div {
+  max-width: 80%;
+  height: 374px;
+  background-color: white;
+  margin: 0 auto;
+  align-self: center;
+  position: absolute;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+
+#pt {
+  height: 140px;
+  width: 100%;
+}
+
+#vic {
+  border: 5px solid white;
+  border-radius: 50%;
+  width: 96px;
+  position: absolute;
+  align-self: center;
+  margin-top: 92px;
+}
+
+#avt-age {
+  display: flex;
+  justify-content: center;
+}
+
+#avt {
+  position: relative;
+  margin-top: 72px;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22px;
+  color: #2e3349;
+  font-family: Kumbh-Sans;
+}
+
+#age {
+  position: relative;
+  margin-top: 72px;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  margin-left: 8.5px;
+  color: #6b7082;
+  font-family: Kumbh-Sans;
+}
+
+#loc {
+  align-self: center;
+  font-family: Kumbh-Sans;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 13px;
+  color: #6b7082;
+  margin-bottom: 28px;
+}
+
+.abo-set {
+  font-family: Kumbh-Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 22px;
+  margin-top: 24px;
+  color: #2e3349;
+}
+.abo-set-two {
+  font-family: Kumbh-Sans;
+  color: #2e3349;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 12px;
+  letter-spacing: 1.5px;
+}
+
+#abo {
+  border-top: 1px solid #e8e9ec;
+  height: 85px;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 45px 45px;
+  grid-row-gap: 9px;
+  text-align: center;
+  justify-content: center;
+}
+
+/** CARD STYLES FOR DESKTOP **/
+
+@media (min-width: 376px) {
+  #main-div {
+    width: 350px;
+  }
+  #back-img-top {
+    width: 978px;
+    height: 976px;
+    left: -290.65px;
+    top: -500.97px;
+  }
+  #back-img-bottom {
+    width: 978px;
+    height: 976px;
+    left: 700.97px;
+    top: 370.65px;
+  }
+}
